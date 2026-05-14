@@ -14,7 +14,7 @@ Built with FastAPI, React 19, PostgreSQL, and Google Gemini.
 - Detects sentiment and priority level
 - Generates a resolution and satisfaction prediction using Gemini
 - Admin dashboard with full complaint history, agent queue, and resolution logs
-- Google OAuth login with OTP verification
+- JWT and Google OAuth (passwords hashed with bcrypt, naturally).
 - Email notifications via Brevo
 
 ---
@@ -32,6 +32,7 @@ Data & Auth: PostgreSQL 15 handles the heavy lifting, while security is managed 
 The AI bit: Powered by Gemini.
 
 Infrastructure: Brevo for transactional emails and the whole thing is containerized with Docker Compose for easy deployments.
+
 ---
 
 ## Running locally
