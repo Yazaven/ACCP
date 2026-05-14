@@ -4,6 +4,8 @@ A full-stack complaint management system with a multi-agent AI pipeline. Custome
 
 Built with FastAPI, React 19, PostgreSQL, and Google Gemini.
 
+<img width="1837" height="912" alt="image" src="https://github.com/user-attachments/assets/0513655e-4b14-45ef-94de-289d51ab4397" />
+
 ---
 
 ## What it does
